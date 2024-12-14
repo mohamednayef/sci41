@@ -100,8 +100,3 @@ elif isinstance(result, dict):
     print("Cost:", result['cost'])
     print("Number of expaned nodes:", len(result['closedSet']), "including goal node")
 ######################################## End Program ########################################
-parent = {
-    'a': None,
-    'b': 'a',
-    'c': 'b'
-}
